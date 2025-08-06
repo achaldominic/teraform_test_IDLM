@@ -7,7 +7,7 @@ tf_state_bucket      = "idlms-terraform-remotestate-272847363143"
 ami_id               = "ami-01f23391a59163da9"
 app_ports = [4000, 4001, 4002]
 
-docker_artifact_bucket = "idlms-stage-built-artifact1"
+docker_artifact_bucket = "idlms-dev-built-artifact-272847363143"
 enable_dns_support   = true
 enable_dns_hostnames = true
 vpc_name             = "dev-idlms-vpc"
