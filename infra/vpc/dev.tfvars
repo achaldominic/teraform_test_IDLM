@@ -4,7 +4,7 @@ region      = "ap-southeast-2"
 ec2_ssm_profile_name = "ec2_ssm_profile-dev"
 ec2_ssm_role_name    = "dev-ec2_ssm_role"
 tf_state_bucket      = "idlms-terraform-remotestate-272847363143"
-ami_id               = "ami-01f23391a59163da9"
+ami_id               = "ami-010876b9ddd38475e"
 app_ports = [4000, 4001, 4002]
 
 docker_artifact_bucket = "idlms-dev-built-artifact-272847363143"
