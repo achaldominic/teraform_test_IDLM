@@ -1,7 +1,7 @@
-tf_state_bucket = "stage-btl-idlms-backend-api-tfstate"
+tf_state_bucket = "idlms-terraform-remotestate-272847363143"
 environment     = "stage"
-region          = "eu-west-1"
-tf_state_region  = "eu-west-1"
+region          = "ap-southeast-2"
+tf_state_region  = "ap-southeast-2"
 load_balancer_type = "network"
 internal           = true
 target_port        = 4000
