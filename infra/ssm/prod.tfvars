@@ -1,5 +1,5 @@
 environment = "prod"
-region = "eu-west-1"
+region = "ap-southeast-2"
 ssm_param_name         = "/idlms/shared/prod/.env"
 ssm_param_description  = "Shared environment variables for IDLMS in prod"
 ssm_param_app_tag      = "idlms"
