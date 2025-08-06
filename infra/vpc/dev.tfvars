@@ -26,7 +26,7 @@ nat_gateway_name           = "dev-idlms-ngw"
 
 public_subnets = {
   cidrs_blocks         = ["10.121.0.0/24", "10.121.1.0/24", "10.121.2.0/24"]
-  availability_zones   = ["ap-southeast-2", "ap-southeast-2", "ap-southeast-2"]
+  availability_zones   = ["ap-southeast-2a", "ap-southeast-2b", "ap-southeast-2c"]
   subnets_name_prefix  = "dev-public"
   route_table_name     = "dev-public"
   map_public_ip_on_launch = true
@@ -35,7 +35,7 @@ public_subnets = {
 
 private_subnets = {
   cidrs_blocks         = ["10.121.10.0/24", "10.121.11.0/24", "10.121.12.0/24", "10.121.13.0/24"]
-  availability_zones   = ["ap-southeast-2", "ap-southeast-2", "ap-southeast-2", "ap-southeast-2"]
+  availability_zones   = ["ap-southeast-2a", "ap-southeast-2b", "ap-southeast-2c", "ap-southeast-2a"]
   subnets_name_prefix  = "dev-private"
   route_table_name     = "dev-private"
   routes               = []
@@ -44,7 +44,7 @@ private_subnets = {
 
 private_lb_subnets = {
   cidrs_blocks         = ["10.121.15.0/26", "10.121.15.64/26", "10.121.15.128/26"]
-  availability_zones   = ["ap-southeast-2", "ap-southeast-2", "ap-southeast-2"]
+  availability_zones   = ["ap-southeast-2a", "ap-southeast-2b", "ap-southeast-2c"]
   subnets_name_prefix  = "dev-lb"
   route_table_name     = "dev-lb"
   routes               = []
@@ -52,7 +52,7 @@ private_lb_subnets = {
 
 private_app_subnets = {
   cidrs_blocks         = ["10.121.16.0/22", "10.121.20.0/22", "10.121.24.0/22"]
-  availability_zones   = ["ap-southeast-2", "ap-southeast-2", "ap-southeast-2"]
+  availability_zones   = ["ap-southeast-2a", "ap-southeast-2b", "ap-southeast-2c"]
   subnets_name_prefix  = "dev-app"
  route_table_name     = "dev-app"
   routes               = []
@@ -60,7 +60,7 @@ private_app_subnets = {
 
 private_data_subnets = {
   cidrs_blocks         = ["10.121.40.0/24", "10.121.41.0/24", "10.121.42.0/24"]
-  availability_zones   = ["ap-southeast-2", "ap-southeast-2", "ap-southeast-2"]
+  availability_zones   = ["ap-southeast-2a", "ap-southeast-2b", "ap-southeast-2c"]
   subnets_name_prefix  = "dev-data"
   route_table_name     = "dev-data"
   routes               = []
@@ -69,7 +69,7 @@ private_data_subnets = {
 
 private_services_subnets = {
   cidrs_blocks         = ["10.121.254.0/26", "10.121.254.64/26", "10.121.254.128/26"]
-  availability_zones   = ["ap-southeast-2", "ap-southeast-2", "ap-southeast-2"]
+  availability_zones   = ["ap-southeast-2a", "ap-southeast-2b", "ap-southeast-2c"]
   subnets_name_prefix  = "dev-service"
   route_table_name     = "dev-service"
   routes               = []
