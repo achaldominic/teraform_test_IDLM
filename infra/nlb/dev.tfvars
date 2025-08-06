@@ -1,6 +1,6 @@
-tf_state_bucket = "my-terraform-state-bckt4321"
-tf_state_region  = "eu-west-1"
-region          = "eu-west-1"
+tf_state_bucket = "idlms-terraform-remotestate-272847363143"
+tf_state_region  = "ap-southeast-2"
+region          = "ap-southeast-2"
 environment     = "dev"
 load_balancer_type = "network"
 internal           = true
