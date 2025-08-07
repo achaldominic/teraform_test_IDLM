@@ -17,5 +17,5 @@ logging_level        = "INFO"
 data_trace_enabled   = false
 
 api_port = 4000
-tf_state_bucket  = "idlms-terraform-remotestate-272847363143"
+tf_state_bucket  = "prod-idlms-terraform-remotestate-272847363143"
 tf_state_region  = "ap-southeast-2"
