@@ -1,4 +1,4 @@
-tf_state_bucket = "idlms-terraform-remotestate-272847363143"
+tf_state_bucket = "stage-idlms-terraform-remotestate-272847363143"
 environment     = "stage"
 region          = "ap-southeast-2"
 tf_state_region  = "ap-southeast-2"
