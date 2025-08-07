@@ -1,4 +1,4 @@
-tf_state_bucket = "idlms-terraform-remotestate-272847363143"
+tf_state_bucket = "dev-idlms-terraform-remotestate-272847363143"
 tf_state_region  = "ap-southeast-2"
 region          = "ap-southeast-2"
 environment     = "dev"
