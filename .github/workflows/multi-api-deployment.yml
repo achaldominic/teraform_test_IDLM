@@ -6,21 +6,21 @@ on:
       ENV:
         description: 'Environment to deploy (dev/staging/prod)'
         required: true
-        default: "stage"
+        default: "dev"
       ROLLBACK_TAG: 
         description: 'Optional: Previous build tag (e.g., 2025.06.30.02). If left blank, deploys latest.'
         required: false
 
 env:
-  AWS_REGION: eu-west-1
-  TF_BUCKET: ${{ github.event.inputs.ENV }}-btl1-idlms-sharon-backend-api-tfstate
-  TF_REGION: eu-west-1
+  AWS_REGION: ap-southeast-2
+  TF_BUCKET: idlms-terraform-remotestate-272847363143
+  TF_REGION: ap-southeast-2
  
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment: ${{ github.event.inputs.ENV || 'stage'  }}
+    environment: ${{ github.event.inputs.ENV || 'dev'  }}
     permissions:
       id-token: write
       contents: read
