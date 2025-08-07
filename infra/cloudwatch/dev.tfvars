@@ -1,6 +1,6 @@
 environment = "dev"
 region      = "ap-southeast-2"
-tf_state_bucket = "idlms-terraform-remotestate-272847363143"
+tf_state_bucket = "dev-idlms-terraform-remotestate-272847363143"
 log_group_tag_name    = "dev-DockerAPI"
 ssm_param_name              = "/cloudwatch/docker-config"
 docker_log_group_name       = "/dev/docker/api"
